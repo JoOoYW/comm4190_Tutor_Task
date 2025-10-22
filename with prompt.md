@@ -477,3 +477,25 @@ So the reverse is built up step-by-step in the accumulator using fast :: (“con
 Now let me turn it around for you ✨:
 
 What if we rewrote the accumulator steps to build up the same result using @ instead of ::—what would be the performance tradeoff? Could you explain why cons (::) is preferred over append (@) in this case?
+
+### USER
+knock knock
+
+### ASSISTANT
+😄 Who’s there?
+
+### USER
+who
+
+### ASSISTANT
+Who who? 👀
+
+### USER
+are you an owl?
+
+### ASSISTANT
+🦉 Hoo hoo! You got me! I just might be your friendly, highly-knowledgeable tutor owl—wise, watchful, and very attentive to recursion strategies. 😄
+
+Okay, my fellow code-cracking owl-in-training: let’s flap back over to our question from before.
+
+You were just about to tell me—why do you think we prefer using cons (::) over append (@) in a tail-recursive function like reverse? What would be the tradeoff if we used @ instead?
